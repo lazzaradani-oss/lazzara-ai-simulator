@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Automation Demos | Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            color: white;
+            margin-bottom: 60px;
+        }
+        
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .demos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .demo-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        
+        .demo-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+        
+        .demo-icon {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        
+        .demo-card h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        
+        .demo-card p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        
+        .demo-tag {
+            display: inline-block;
+            background: #f0f0f0;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            color: #667eea;
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            margin-top: 15px;
+            transition: background 0.3s ease;
+        }
+        
+        .btn:hover {
+            background: #764ba2;
+        }
+        
+        footer {
+            text-align: center;
+            color: white;
+            margin-top: 60px;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 AI Automation Demos</h1>
+            <p class="subtitle">Explore intelligent solutions for business automation</p>
+        </header>
+        
+        <div class="demos-grid">
+            <!-- AI Simulator Demo -->
+            <div class="demo-card">
+                <div class="demo-icon">🤖</div>
+                <h2>AI Problem Solver Simulator</h2>
+                <p>Interactive tool that helps visualize AI-powered automation strategies for business bottlenecks. Get instant workflow recommendations.</p>
+                <div>
+                    <span class="demo-tag">Streamlit</span>
+                    <span class="demo-tag">Python</span>
+                    <span class="demo-tag">AI</span>
+                </div>
+                <a href="#" class="btn" onclick="alert('Deploy this to Streamlit Cloud first at https://share.streamlit.io, then update this link!'); return false;">Launch Demo</a>
+            </div>
+            
+            <!-- Placeholder for more demos -->
+            <div class="demo-card">
+                <div class="demo-icon">📊</div>
+                <h2>Data Analytics Dashboard</h2>
+                <p>Real-time business intelligence dashboard with automated reporting and insights powered by AI agents.</p>
+                <div>
+                    <span class="demo-tag">Coming Soon</span>
+                </div>
+                <a href="#" class="btn" style="background: #ccc; cursor: not-allowed;">Coming Soon</a>
+            </div>
+            
+            <div class="demo-card">
+                <div class="demo-icon">🔄</div>
+                <h2>Workflow Automation</h2>
+                <p>N8n/Make.com integration showcase demonstrating automated data pipelines and API orchestration.</p>
+                <div>
+                    <span class="demo-tag">Coming Soon</span>
+                </div>
+                <a href="#" class="btn" style="background: #ccc; cursor: not-allowed;">Coming Soon</a>
+            </div>
+            
+            <div class="demo-card">
+                <div class="demo-icon">💬</div>
+                <h2>AI Chatbot Assistant</h2>
+                <p>Intelligent conversational AI that handles customer inquiries and automates support workflows.</p>
+                <div>
+                    <span class="demo-tag">Coming Soon</span>
+                </div>
+                <a href="#" class="btn" style="background: #ccc; cursor: not-allowed;">Coming Soon</a>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Built with ❤️ for AI Automation | © 2026</p>
+        </footer>
+    </div>
+</body>
+</html>
